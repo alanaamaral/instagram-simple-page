@@ -1,0 +1,298 @@
+:root {
+  --ggs: 1
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+  background-color: #363636;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0px 16px;
+  height: 32px;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 103px;
+  height: 29px;
+  margin-bottom: 35px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 40px 0 20px;
+  font-size: 16px;
+  width: 150px;
+}
+
+.menu-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.gg-home {
+  margin-right: 16px;
+  transform: scale(1.1);
+}
+
+.gg-search {
+  margin: 0 18px 0 2px;
+  transform: scale(1.2);
+}
+
+.reels {
+  margin-left: 10px;
+}
+
+.gg-arrow-top-right-o {
+  margin-right: 14px;
+}
+
+.gg-comment {
+  margin-right: 16px;
+  transform: scale(1.1);
+}
+
+.gg-heart {
+  margin: 0 20px 0 6px;
+  /*transform: rotate(-45deg) scale(1.5);*/
+}
+
+.gg-add-r {
+  margin-right: 15px;
+}
+
+.menu-icon {
+  margin-right: 14px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.gg-attachment {
+  margin-right: 20px;
+}
+
+.gg-menu {
+  margin-right: 16px;
+}
+
+.menu-bottom {
+  margin-top: 220px;
+}
+
+.container {
+  border-left: 2px solid #141414;
+  padding: 0 105px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 10px auto 0;
+}
+
+.user {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+}
+
+.photo-perfil {
+  margin-right: 80px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.username-text {
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.btn-follow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.gg-chevron-down {
+  margin-left: 2px;
+  transform: scale(0.8)
+}
+
+.btn-mesage {
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.btn-add {
+  margin-right: 20px;
+  width: 32px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gg-user-add {
+  transform: scale(0.7);
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.name {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.followers {
+  font-size: 12px;
+  color: #949494;
+}
+
+.followers-names {
+  font-size: 12px;
+  color: white;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  margin-left: 50px;
+
+}
+
+.images {
+  border-radius: 50%;
+  width: 77px;
+  height: 77px;
+  border: 2px solid #141414;
+  padding: 3px;
+}
+
+.highlight-items {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 45px 40px 0;
+  align-items: center;
+}
+
+.feed {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  justify-content: center;
+  border-top: 2px solid #141414;
+}
+
+.feed-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 25px 0 25px;
+  border-top: 2px solid transparent;
+  margin-top: -2px;
+  color: #949494;
+  padding: 4px 0 4px 0;
+}
+
+.feed-icons.active {
+  border-top: 2px solid white;
+  color: white;
+}
+
+.gg-view-grid {
+  margin-right: 4px;
+  transform: scale(0.7);
+}
+
+.gg-play-button-r {
+  margin-right: 4px;
+  transform: scale(0.6);
+}
+
+.gg-tag {
+  margin-right: 10px;
+  transform: scale(0.9);
+}
+
+.feed-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.photos {
+  border: 2px solid black;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.photos-container {
+  width: 291px;
+  height: 291px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: #737373;
+  font-size: 12px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer-information {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 12px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.gg-copyright {
+  transform: scale(0.5);
+}
